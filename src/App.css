@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "MaruBuriExtraLight";
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2)
+      format("woff2"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff)
+      format("woff"),
+    url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf)
+      format("truetype");
+}
+
+.App {
+  width: 500px;
+  height: 800px;
+  margin: 0 auto;
+
+  background: linear-gradient(#71768a, #877d8e);
+  font-family: "MaruBuriExtraLight";
+  color: white;
+}
+
+.App button,
+.App input {
+  font-family: "MaruBuriExtraLight";
+  color: white;
+}

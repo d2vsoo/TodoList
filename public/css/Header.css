@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Recipekorea";
+  font-weight: normal;
+  src: url("/src/assets/font/Recipekorea.otf");
+}
+
+.Header h1 {
+  font-family: "Recipekorea";
+}

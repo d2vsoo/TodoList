@@ -1,0 +1,23 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 30px;
+}
+
+.List .search {
+  height: 40px;
+  padding: 0 0 10px 15px;
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid white;
+  background: none;
+}
+
+.List .search::placeholder {
+  color: white;
+}
+
+.List .search:focus {
+  outline: none;
+}
